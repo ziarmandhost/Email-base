@@ -4,12 +4,14 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.js"
+		"start": "nodemon index.js"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"email-existence": "^0.1.6"
+		"email-existence": "^0.1.6",
+		"fast-csv": "^4.3.2",
+		"@fast-csv/format": "latest"
 	}
 }
